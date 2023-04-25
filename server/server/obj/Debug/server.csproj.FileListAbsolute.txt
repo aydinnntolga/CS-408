@@ -6,3 +6,4 @@ C:\Users\lenovo\Desktop\Multiplayer_TicTacToe\server\server\obj\Debug\server.Pro
 C:\Users\lenovo\Desktop\Multiplayer_TicTacToe\server\server\obj\Debug\server.csproj.GenerateResource.Cache
 C:\Users\lenovo\Desktop\Multiplayer_TicTacToe\server\server\obj\Debug\server.exe
 C:\Users\lenovo\Desktop\Multiplayer_TicTacToe\server\server\obj\Debug\server.pdb
+C:\Users\lenovo\Desktop\Multiplayer_TicTacToe\server\server\obj\Debug\server.csprojResolveAssemblyReference.cache

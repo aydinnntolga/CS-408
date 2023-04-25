@@ -36,7 +36,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.richTextBoxLobby = new System.Windows.Forms.RichTextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.richTextBoxLogs = new System.Windows.Forms.RichTextBox();
+            this.logs = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -63,6 +63,7 @@
             this.buttonListen.TabIndex = 2;
             this.buttonListen.Text = "Listen";
             this.buttonListen.UseVisualStyleBackColor = true;
+            this.buttonListen.Click += new System.EventHandler(this.buttonListen_Click);
             // 
             // label2
             // 
@@ -109,21 +110,21 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Logs: ";
             // 
-            // richTextBoxLogs
+            // logs
             // 
-            this.richTextBoxLogs.Location = new System.Drawing.Point(67, 341);
-            this.richTextBoxLogs.Name = "richTextBoxLogs";
-            this.richTextBoxLogs.ReadOnly = true;
-            this.richTextBoxLogs.Size = new System.Drawing.Size(626, 256);
-            this.richTextBoxLogs.TabIndex = 8;
-            this.richTextBoxLogs.Text = "";
+            this.logs.Location = new System.Drawing.Point(67, 341);
+            this.logs.Name = "logs";
+            this.logs.ReadOnly = true;
+            this.logs.Size = new System.Drawing.Size(626, 256);
+            this.logs.TabIndex = 8;
+            this.logs.Text = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(809, 664);
-            this.Controls.Add(this.richTextBoxLogs);
+            this.Controls.Add(this.logs);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.richTextBoxLobby);
             this.Controls.Add(this.label3);
@@ -149,7 +150,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RichTextBox richTextBoxLobby;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.RichTextBox richTextBoxLogs;
+        private System.Windows.Forms.RichTextBox logs;
     }
 }
 

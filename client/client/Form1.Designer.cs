@@ -37,7 +37,7 @@
             this.buttonConnect = new System.Windows.Forms.Button();
             this.buttonJoin = new System.Windows.Forms.Button();
             this.buttonLeave = new System.Windows.Forms.Button();
-            this.gameArena = new System.Windows.Forms.RichTextBox();
+            this.logs = new System.Windows.Forms.RichTextBox();
             this.buttonMove = new System.Windows.Forms.Button();
             this.textBoxMove = new System.Windows.Forms.TextBox();
             this.buttonDisconnect = new System.Windows.Forms.Button();
@@ -99,6 +99,7 @@
             this.buttonConnect.TabIndex = 6;
             this.buttonConnect.Text = "Connect";
             this.buttonConnect.UseVisualStyleBackColor = true;
+            this.buttonConnect.Click += new System.EventHandler(this.buttonConnect_Click);
             // 
             // buttonJoin
             // 
@@ -120,14 +121,14 @@
             this.buttonLeave.Text = "Leave Game";
             this.buttonLeave.UseVisualStyleBackColor = true;
             // 
-            // gameArena
+            // logs
             // 
-            this.gameArena.Location = new System.Drawing.Point(104, 175);
-            this.gameArena.Name = "gameArena";
-            this.gameArena.ReadOnly = true;
-            this.gameArena.Size = new System.Drawing.Size(508, 328);
-            this.gameArena.TabIndex = 9;
-            this.gameArena.Text = "";
+            this.logs.Location = new System.Drawing.Point(104, 175);
+            this.logs.Name = "logs";
+            this.logs.ReadOnly = true;
+            this.logs.Size = new System.Drawing.Size(508, 328);
+            this.logs.TabIndex = 9;
+            this.logs.Text = "";
             // 
             // buttonMove
             // 
@@ -165,7 +166,7 @@
             this.Controls.Add(this.buttonDisconnect);
             this.Controls.Add(this.textBoxMove);
             this.Controls.Add(this.buttonMove);
-            this.Controls.Add(this.gameArena);
+            this.Controls.Add(this.logs);
             this.Controls.Add(this.buttonLeave);
             this.Controls.Add(this.buttonJoin);
             this.Controls.Add(this.buttonConnect);
@@ -193,7 +194,7 @@
         private System.Windows.Forms.Button buttonConnect;
         private System.Windows.Forms.Button buttonJoin;
         private System.Windows.Forms.Button buttonLeave;
-        private System.Windows.Forms.RichTextBox gameArena;
+        private System.Windows.Forms.RichTextBox logs;
         private System.Windows.Forms.Button buttonMove;
         private System.Windows.Forms.TextBox textBoxMove;
         private System.Windows.Forms.Button buttonDisconnect;
