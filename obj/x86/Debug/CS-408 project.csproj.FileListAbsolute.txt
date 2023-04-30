@@ -1,0 +1,11 @@
+C:\Users\tolga\Desktop\22-23\CS408\project\CS-408\bin\Debug\ConsoleApplication.exe.config
+C:\Users\tolga\Desktop\22-23\CS408\project\CS-408\obj\x86\Debug\CS-408 project.csprojResolveAssemblyReference.cache
+C:\Users\tolga\Desktop\22-23\CS408\project\CS-408\obj\x86\Debug\client.Form1.resources
+C:\Users\tolga\Desktop\22-23\CS408\project\CS-408\obj\x86\Debug\CS_408_project.client.client.Properties.Resources.resources
+C:\Users\tolga\Desktop\22-23\CS408\project\CS-408\obj\x86\Debug\server.Form1.resources
+C:\Users\tolga\Desktop\22-23\CS408\project\CS-408\obj\x86\Debug\CS_408_project.server.server.Properties.Resources.resources
+C:\Users\tolga\Desktop\22-23\CS408\project\CS-408\obj\x86\Debug\CS-408 project.csproj.GenerateResource.Cache
+C:\Users\tolga\Desktop\22-23\CS408\project\CS-408\bin\Debug\ConsoleApplication.exe
+C:\Users\tolga\Desktop\22-23\CS408\project\CS-408\bin\Debug\ConsoleApplication.pdb
+C:\Users\tolga\Desktop\22-23\CS408\project\CS-408\obj\x86\Debug\ConsoleApplication.exe
+C:\Users\tolga\Desktop\22-23\CS408\project\CS-408\obj\x86\Debug\ConsoleApplication.pdb
